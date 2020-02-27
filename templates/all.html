@@ -1,0 +1,11 @@
+<html>
+<link rel="stylesheet" type="text/css" href="/css.css">
+<link rel="shortcut icon" href="/logo.png" type="image/png">
+
+{% block dump %}
+<div id=dump>
+    <pre>{{ env.dump() }}</pre>
+</div>
+{% endblock %}
+
+</html>

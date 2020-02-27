@@ -1,0 +1,4 @@
+* {
+    background: {{env['BACK'].val}}; color: {{env['COLOR'].val}};
+    font-family: {{env['FONT'].val}}; font-size: {{env['SIZE'].val}};
+}
